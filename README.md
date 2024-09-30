@@ -19,11 +19,11 @@
 
   ## Installation
 
-  Download this project from the Github then use npm install in the command line, then use npm run start to run the application.
+  Download this project from the Github. After you download it, open the command line and type in npm install and npm run start to run the application.
 
   ## Usage
 
-  The vehicle will prompt you to either create a new vehicle or choose an existing one. If you chooose to create a new vehicle , you are then prompted to either choose a car, truck, or motorbike. After you choose the  characteristics of your vehicle, you can choose among different  actions or exit application
+  The use will be prompted to either create a new vehicle or choose an existing one. If you choose "Select an existing vehicle" then you choose between a premade selection of vehicles. If you chooose to create a new vehicle , you are then prompted to either choose a car, truck, or motorbike. After you choose the characteristics of your vehicle, you can choose among different actions or exit application once you're done. 
 
   ## Contribution 
 
@@ -41,5 +41,9 @@
 
   You can find me on Github by clicking this link: https://github.com/Gali411.
   You can also reach out to me by email at: gabriel11harris030@gmail.com.
+
+  ## Video Link 
+
+  
 
   

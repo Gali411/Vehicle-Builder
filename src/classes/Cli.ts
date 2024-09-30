@@ -73,7 +73,7 @@ class Cli {
         else if (answers.vehicleType === 'Truck'){
           this.createTruck();
         }
-        else if (answers.createMotorbike === 'Motorbike'){
+        else if (answers.vehicleType === 'Motorbike'){
           this.createMotorbike();
         }
       });
@@ -406,7 +406,7 @@ class Cli {
         else if (answers.action === 'Pop a Wheelie'){
           for (let i = 0; i < this.vehicles.length; i++) {
             if (this.vehicles[i].vin === this.selectedVehicleVin) {
-              if (this.vehicles instanceof Motorbike){
+              if (this.vehicles[i] instanceof Motorbike){
                 (this.vehicles[i] as Motorbike).Wheelie();
               }
               else {
